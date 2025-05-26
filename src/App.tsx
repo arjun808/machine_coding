@@ -1,4 +1,4 @@
-import Stepper from "./Questions/Stepper";
+import DragAndDrop from "./Questions/Drag-Drop";
 
 const App = () => {
   return (
@@ -6,7 +6,8 @@ const App = () => {
       <h1 className="text-center text-4xl font-bold mt-2">
         Machine round prectise
       </h1>
-      <Stepper />
+      {/* <Stepper /> */}
+      <DragAndDrop />
     </div>
   );
 };
