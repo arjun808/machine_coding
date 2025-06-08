@@ -17,8 +17,8 @@ const PinterestLayout = () => {
 
   return (
     <div className="flex justify-center p-4 bg-gray-50 min-h-screen">
-      <div className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4">
-        {[...Array(20)].map((_, index) => {
+      <div  className="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-4 ">
+        {[...Array(80)].map((_, index) => {
           const height = heights[index % heights.length];
           const bgColor = colors[index % colors.length];
 
