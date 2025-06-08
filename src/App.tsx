@@ -1,4 +1,4 @@
-import DragAndDrop from "./Questions/Drag-Drop";
+import PinterstLayout from "./Questions/PinterstLayout";
 
 const App = () => {
   return (
@@ -7,7 +7,8 @@ const App = () => {
         Machine round prectise
       </h1>
       {/* <Stepper /> */}
-      <DragAndDrop />
+      {/* <DragAndDrop /> */}
+      <PinterstLayout />
     </div>
   );
 };
