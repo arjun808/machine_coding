@@ -1,9 +1,7 @@
-
-import ToDoList from "./Questions/ToDoList";
+import TablePagination from "./Questions/TablePagination";
 
 const App = () => {
-
-  return <ToDoList />;
+  return <TablePagination />;
 };
 
 export default App;
